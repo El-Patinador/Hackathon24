@@ -1,0 +1,72 @@
+/* Center the entire body content */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-size: 14px; /* Smaller font size */
+    background: linear-gradient(lightgreen, yellow);
+}
+
+/* Center the fieldsets and buttons with reduced margin */
+fieldset, .dropdown, button {
+    margin: 10px 0; /* Reduce vertical spacing */
+}
+
+/* Style for dropdown buttons */
+.dropdown-toggle {
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    font-size: 12px; /* Smaller font size */
+    padding: 6px 12px; /* Smaller padding */
+    border-radius: 5px;
+    min-width: 180px; /* Control button width */
+}
+
+/* Hover effect for dropdown buttons */
+.dropdown-toggle:hover {
+    background-color: #90ee90;
+}
+
+/* Style the fieldset legend and labels to be smaller */
+legend, label {
+    font-size: 12px; /* Smaller text size */
+}
+
+/* Button size adjustment */
+button.btn {
+    font-size: 12px; /* Smaller button text */
+    padding: 8px 16px; /* Smaller padding */
+}
+
+/* Smaller h1 title */
+h1 {
+    font-size: 18px; /* Reduce title size */
+    margin-bottom: 20px;
+    
+}
+/* Added borders to p1 - p4 and legend */
+#p1 {
+    border-style:ridge;
+}
+
+#p2 {
+    border-style:ridge;
+    
+}
+
+#p3 {
+    border-style:ridge;
+}
+
+#p4 {
+    border-style:ridge;
+}
+
+legend {
+    border-style:ridge;
+}
